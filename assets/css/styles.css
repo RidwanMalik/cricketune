@@ -1,0 +1,137 @@
+#main {
+  height:100vh;
+  background-image:url("../../assets/img/android.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.brand:hover {
+  border-bottom-color:transparent;
+  background-color:rgba(255,255,255,0.05);
+  border-radius:2px;
+}
+
+.brand {
+  border:2px solid transparent;
+  border-bottom:2px solid #fff;
+  max-width:400px;
+  transition:1s;
+}
+
+.brand p {
+  padding:0px 15px;
+  margin:0;
+  font-size:52px;
+  font-weight:600;
+}
+
+.brand-col {
+  height:85vh;
+}
+
+.dark {
+  background-color:#000000;
+  height:100vh;
+  width:100%;
+  position:absolute;
+  left:0px;
+  top:0px;
+  opacity:0.6;
+}
+
+.down-btn {
+  background-image:url("../../assets/img/google-play-badge.png");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:200px;
+  height:65px;
+  background-color:transparent;
+  border:0px;
+}
+
+.down-btn:hover {
+  background-color:transparent;
+  border:0px;
+}
+
+.icon-bottom a {
+  color:#fff;
+  width:100%;
+  text-align:center;
+}
+
+.icon-bottom i {
+  font-size:30px;
+}
+
+body {
+  background-color:#006E6D;
+  font-family:Roboto, sans-serif;
+}
+
+.about-row-one {
+  padding:60px 0px;
+}
+
+.about-row-one img {
+  min-height:400px;
+}
+
+.about-text-1 {
+  font-size:28px;
+  font-weight:300;
+  line-height:2rem;
+}
+
+.about-text-2 {
+  font-size:1.2rem;
+  line-height:1.7rem;
+  margin-top:1.75rem;
+  margin-bottom:.75rem;
+}
+
+.about-sec-two {
+  background-color:#00BEB4;
+}
+
+#contact {
+  background-color:#474D5D;
+  padding:85px 0px;
+}
+
+.cont-heading {
+  font-size:36px;
+  line-height:38px;
+  font-weight:200;
+  font-family:'Open Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .form-heading {
+    margin-top:85px;
+  }
+}
+
+.form-heading {
+  margin-top:55px;
+}
+
+.footer-basic {
+  background-color:#282d32;
+  color:#f0f9ff;
+}
+
+.policy {
+  background-color:#f8f8f8;
+}
+
+.policy-heading {
+  background-color:#00BEB4;
+}
+
+.policy-heading h2 {
+  margin:34px 0px;
+}
+
